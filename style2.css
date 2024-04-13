@@ -1,0 +1,52 @@
+body {
+    width: 1320px;
+}
+
+header {
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 800;
+
+    background-image: url("B9A1-New-Year-New-Mission/resources/Banner\ Image.png");
+    height: 600px;
+    background-repeat: no-repeat;
+}
+
+#happy {
+    font-size: 50px;
+    padding-top: 200px;
+    margin-bottom: -40px;
+}
+
+#new {
+    font-size: 100px;
+}
+
+#year {
+    font-size: 100px;
+    margin-top: -70px;
+}
+
+.discount-section {
+    text-align: center;
+    color: red;
+}
+
+.discount-section-title {
+    font-weight: 800;
+}
+
+#discount {
+    font-size: 100px;
+    padding-bottom: 0px;
+}
+
+#holiday {
+    font-size: 25px;
+    margin-top: -30px;
+}
+
+#catagories {
+    font-size: 50px;
+    margin-top: 0px;
+}

@@ -1,35 +1,34 @@
-body {
-    width: 1320px;
-}
-
 header {
-    color: #FFFFFF;
-    text-align: center;
-    font-weight: 800;
-
-    background-image: url("B9A1-New-Year-New-Mission/resources/Banner\ Image.png");
+    background: linear-gradient(#00000069,#0000005b), url(B9A1-New-Year-New-Mission/resources/Banner\ Image.png);
     height: 600px;
     background-repeat: no-repeat;
+    border-radius: 10px;
+    text-align: center;
 }
 
-#happy {
-    font-size: 50px;
-    padding-top: 200px;
-    margin-bottom: -40px;
+body {
+    width: 1320px;
+    font-family: sans-serif;
+    margin: auto;
 }
 
-#new {
-    font-size: 100px;
+header h3 {
+    color: white;
+    font-size: 35px;
+    font-weight: 500;
+    padding-top: 120px;
 }
 
-#year {
-    font-size: 100px;
-    margin-top: -70px;
+header h1 {
+    color: white;
+    font-size: 80px;
+    font-weight: 700px;
 }
 
 .discount-section {
     text-align: center;
     color: red;
+    border-radius: 10px;
 }
 
 .discount-section-title {
@@ -49,4 +48,117 @@ header {
 #catagories {
     font-size: 50px;
     margin-top: 0px;
+}
+
+#party-section {
+    background-image: linear-gradient(#00000070,#0000005e), url("B9A1-New-Year-New-Mission/resources/Vectorrr.png");
+    height: 600px;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+#party-section-title {
+    color: #FFFFFF;
+    font-weight: 800;
+    margin: 90px;
+}
+
+#image-2024 {
+    margin: 70px;
+}
+
+#party-section-1st-line {
+    font-size: 80px;
+    margin-bottom: -70px;
+}
+
+#party-section-2nd-line {
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+#party-section-description {
+    padding-bottom: ;
+}
+
+#joining-btn {
+    background: transparent;
+    border: 0px;
+    color: #FFFFFF;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+#event {
+    background-color: #ffcece;
+    height: 482px;
+    box-shadow: 50%;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.event-schedule {
+    color: red;
+    font-size: 40px;
+    
+}
+
+#place {
+    margin-top: 80px;
+    padding-top: 120px;
+}
+
+#date {
+
+}
+
+#time {
+
+}
+
+#join-button {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 10px;
+    height: 60px;
+    width: 140px;
+}
+
+#new-year-offers {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#best-offer {
+    width: 440px;
+    padding-right: 40px;
+}
+
+.offer-2024 {
+    color: red;
+    font-size: 35px;
+}
+
+#soon {
+    font-size: 60px;
+}
+
+#offer-section-image {
+    width: 440px;
+    /* border: 5px;
+    border-color: red;
+    border-radius: 20px; */
+}
+
+#offer-2024 {
+    width: 440px;
+    padding-left: 40px;
 }

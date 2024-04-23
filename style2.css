@@ -340,3 +340,11 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+
+#unsubscribe-button {
+    background-color: black;
+    font-size: 25px;
+    color: white;
+    border: 0px;
+    width: 200px;
+}

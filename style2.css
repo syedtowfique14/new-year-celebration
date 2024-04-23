@@ -1,5 +1,5 @@
 header {
-    background: linear-gradient(#00000069,#0000005b), url(B9A1-New-Year-New-Mission/resources/Banner\ Image.png);
+    background: linear-gradient(#00000069, #0000005b), url(B9A1-New-Year-New-Mission/resources/Banner\ Image.png);
     height: 600px;
     background-repeat: no-repeat;
     border-radius: 10px;
@@ -16,13 +16,18 @@ header h3 {
     color: white;
     font-size: 35px;
     font-weight: 500;
-    padding-top: 120px;
+    padding-top: 160px;
+    margin-bottom: -40px;
 }
 
 header h1 {
     color: white;
     font-size: 80px;
     font-weight: 700px;
+}
+
+#celebration {
+    margin-top: -40px;
 }
 
 .discount-section {
@@ -51,7 +56,7 @@ header h1 {
 }
 
 #party-section {
-    background-image: linear-gradient(#00000070,#0000005e), url("B9A1-New-Year-New-Mission/resources/Vectorrr.png");
+    background-image: linear-gradient(#00000070, #0000005e), url("B9A1-New-Year-New-Mission/resources/Vectorrr.png");
     height: 600px;
     background-repeat: no-repeat;
     display: flex;
@@ -93,7 +98,7 @@ header h1 {
 }
 
 #event {
-    background-color: #ffcece;
+    background: linear-gradient(#ff00001a,white), #ffcece;
     height: 482px;
     box-shadow: 50%;
     text-align: center;
@@ -105,7 +110,7 @@ header h1 {
 .event-schedule {
     color: red;
     font-size: 40px;
-    
+
 }
 
 #place {
@@ -113,13 +118,9 @@ header h1 {
     padding-top: 120px;
 }
 
-#date {
+#date {}
 
-}
-
-#time {
-
-}
+#time {}
 
 #join-button {
     background-color: red;
@@ -139,6 +140,7 @@ header h1 {
 
 #best-offer {
     width: 440px;
+    padding-top: 50px;
     padding-right: 40px;
 }
 
@@ -153,12 +155,99 @@ header h1 {
 
 #offer-section-image {
     width: 440px;
-    /* border: 5px;
-    border-color: red;
-    border-radius: 20px; */
 }
 
-#offer-2024 {
+#offer-section-image img {
+    border: 15px solid;
+    border-color: red;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+#offer {
     width: 440px;
+    padding-top: 50px;
     padding-left: 40px;
+}
+
+#holidays-sale-section {
+    margin-top: 100px;
+}
+
+#holidays-sale-section h3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+#holidays-sale-section h1 {
+    text-align: center;
+    font-size: 75px;
+    font-weight: 700;
+    margin-top: -15px;
+}
+
+#holidays {
+    color: red;
+}
+
+#percentage {
+    font-family: 'Merriweather';
+}
+
+#holidays-sale-section p {
+    text-align: center;
+    font-size: 20px;
+    width: 1000px;
+    padding-left: 160px;
+    margin-top: -30px;
+}
+
+#girl {
+    margin-bottom: 225px;
+    padding-left: 89px;
+}
+
+#holidays-sale-section div {
+    margin-top: 100px;
+    background: url(B9A1-New-Year-New-Mission/resources/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    height: 666px;
+}
+
+#discount-image {
+    position: absolute;
+    margin-left: -60px;
+    padding-top: 70px;
+}
+
+#portfolio-section {
+    margin-top: 100px;
+}
+
+#portfolio-section h3 {
+    color: red;
+    font-size: 25px;
+}
+
+#portfolio-section h1 {
+    font-size: 50px;
+}
+
+#portfolio-section p {
+    font-size: 20px;
+    width: 66%;
+}
+
+#image-container 
+
+#image-container-1 {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+#image-container-2 {
+    display: flex;
+    gap: 30px;
 }
